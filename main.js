@@ -16,10 +16,6 @@ form.addEventListener('submit', function(e) {
 	.then(res => res.json())
 	.then(data2 => console.log(data2))
 	.catch(err => console.log(err))
-
-
-
-
 })
 
 

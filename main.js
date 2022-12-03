@@ -9,7 +9,7 @@ form.addEventListener('submit', function(e) {
 	data.append('inputed-file', input)
 	data.append('comment', comment)
 
-	fetch('https://httpbin.org/post', {
+	fetch('https://github.com/cross-sans/web_server', {
 		method: "POST",
 		body: data,
 	})
@@ -21,3 +21,5 @@ form.addEventListener('submit', function(e) {
 
 
 })
+
+
